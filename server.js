@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const dbConfig = require('./database/db');
+//const bcrypt = require("bcrypt");
+
 
 // Express APIs
 const api = require('./routes/auth.routes');
